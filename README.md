@@ -32,7 +32,7 @@ date || credit || debit || balance
 10/01/2023 || 1000.00 || || 1000.00
 ```
 
-nstallation
+Installation
 -----
 - Fork this repository.
 - Clone your new forked repository using `git clone` followed by your fork URL.
