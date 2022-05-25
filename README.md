@@ -31,3 +31,26 @@ date || credit || debit || balance
 13/01/2023 || 2000.00 || || 3000.00
 10/01/2023 || 1000.00 || || 1000.00
 ```
+
+Installation
+-----
+- Fork this repository.
+- Clone your new forked repository using `git clone` followed by your fork URL.
+- Move into the repository by using `cd bank-test`.
+- Run the command `gem install bundler` (if you don't have bundler already).
+- When the installation completes, run `bundle`.
+
+
+Program Usage
+-----
+Use irb from the main repository and require the following file:
+
+```zsh
+irb
+require './lib/account.rb'
+```
+
+Make your own bank account:
+```zsh
+account_name = Account.new
+```
